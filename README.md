@@ -26,7 +26,7 @@ MyFridge is using HTML, CSS, React for frontend and Express and MySQL for backen
 ## PLAN
   - [ ] User Flow
   
-   ![Image of userFlow](userFlow.png)
+   ![Image of userFlow](/userFlow.png)
    
    
   
