@@ -26,25 +26,25 @@ MyFridge is using HTML, CSS, React for frontend and Express and MySQL for backen
 ## PLAN
   - [ ] User Flow
   
-   ![Image of userFlow](./readMe/userFlow.png)
+   ![Image of userFlow](/userFlow.png)
    
    
   
   - [ ] Database schema
   
-   ![Image of Database](./readMe/Database.png)
+   ![Image of Database](Database.png)
    
    
   
   - [ ] API routes plan
   
-   ![Image of Routes](./readMe/Routes.png)
+   ![Image of Routes](Routes.png)
    
    
   
   - [ ] Full stack architecture drawing
   
-   ![Image of architecture](./readMe/architecture.jpg)
+   ![Image of architecture](architecture.jpg)
 
 
 
