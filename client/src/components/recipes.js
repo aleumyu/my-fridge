@@ -12,7 +12,7 @@ class Recipes extends Component {
       }
     
     componentDidMount() {
-      const {id} = this.props.match.params
+      const {id} = this.props.match.params;
       fetch(`http://localhost:9000/api/v1/items/${id}`) 
       .then(res => {
         if (!res.ok) {

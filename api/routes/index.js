@@ -87,7 +87,7 @@ router.delete('/api/v1/items/:id', (req, res, next) => {
   db(`DELETE FROM items WHERE id = ${req.params.id};`)
     .then (results => {
       if (results.error) {
-        res.status(500).send(results.error)
+        res.status(500).send(results.error);
       }
       console.log('results are', results.data)
       res.send(results.data);

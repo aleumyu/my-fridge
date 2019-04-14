@@ -72,7 +72,7 @@ class App extends Component {
           throw Error(res.statusText);
         }
         let arr = this.state.fridgeFreezerList;
-        arr.splice(i, 1)
+        arr.splice(i, 1);
         this.setState ({
             fridgeFreezerList: arr
         });
@@ -102,7 +102,8 @@ class App extends Component {
             <button className={this.state.fridgeView ? "btn btn-default mr-1" : "btn btn-primary mr-1"} onClick={() => this.changeList(false)}>Freezer</button>
           </div> 
           <div>
-            {this.state.fridgeView ? <FridgeList fridgeFreezerList={this.state.fridgeFreezerList} removeItem={(event, i) => this.removeItem(event, i)}/>
+            {this.state.fridgeView 
+              ? <FridgeList fridgeFreezerList={this.state.fridgeFreezerList} removeItem={(event, i) => this.removeItem(event, i)}/>
               : <FreezerList fridgeFreezerList={this.state.fridgeFreezerList} removeItem={(event, i) => this.removeItem(event, i)}/>
             }
              

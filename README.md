@@ -1,13 +1,16 @@
 # MY FRIDGE
 MyFridge is an app which will help you to avoid food waste from your fridge.
 
+![Image of App](readme/MyFridgeScreenshot.png)
 
 ## FEATURES
   - [ ] Principle Features
-    - Add item, date and quantity to the fridge or freezer
-    - Show the list of items in fridge and freezer by date order (from the oldest to the latest)
-    - Can remove item from the fridge or freezer
-    - If click an item, show possible recipes and can chose one to show detail.
+      - Add item, type, quantity and date to the fridge or freezer
+      - Show the list of items in fridge and freezer by date order
+      - Sort items by category
+      - Show alert when items are close to expiration
+      - Can remove item from the fridge or freezer
+      - Show possible recipes and can chose one to show detail.em, show possible recipes and can chose one to show detail.
 
   - [ ] Nice-to-have
     - Update quantity
@@ -16,7 +19,7 @@ MyFridge is an app which will help you to avoid food waste from your fridge.
 
 
 ## STACK
-MyFridge is using HTML, CSS, React for frontend and Express and MySQL for backend
+MyFridge is built using React, Express, Node.js, MySQL and Bootstrap.
 
 
 ## API
@@ -26,25 +29,25 @@ MyFridge is using HTML, CSS, React for frontend and Express and MySQL for backen
 ## PLAN
   - [ ] User Flow
   
-   ![Image of userFlow](/userFlow.png)
+   ![Image of userFlow](readme/userFlow.png)
    
    
   
   - [ ] Database schema
   
-   ![Image of Database](Database.png)
+   ![Image of Database](readme/Database.png)
    
    
   
   - [ ] API routes plan
   
-   ![Image of Routes](Routes.png)
+   ![Image of Routes](readme/Routes.png)
    
    
   
   - [ ] Full stack architecture drawing
   
-   ![Image of architecture](architecture.jpg)
+   ![Image of architecture](readme/architecture.jpg)
 
 
 
