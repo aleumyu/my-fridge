@@ -10,7 +10,7 @@ MyFridge is an app which will help you to avoid food waste from your fridge.
       - Sort items by category
       - Show alert when items are close to expiration
       - Can remove item from the fridge or freezer
-      - Show possible recipes and can chose one to show detail.em, show possible recipes and can chose one to show detail.
+      - Show possible recipes and can chose one to show detail
 
   - [ ] Nice-to-have
     - Update quantity
